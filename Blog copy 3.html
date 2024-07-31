@@ -24,7 +24,62 @@
         </nav>
         
     </header>
+    <section class="blog-header">
+        <h1> Using your model 101</h1>
+        <p class="release-date">March 23, 2021</p>
+    </section>
+    <section class="blog-content">
+        <div class="main-image">
+            <img src="" alt="Main Image">
+        </div>
+        <div class="content-section">
+           <p> The common reason for creating a machine learning model is to automate or accomplish a task that was too tedious to complete in traditional programming. That means after using Lobe to label, train, and play with your model, the next step is to export it and use it in the real world. The possibilities are endless. This article defines what a model is, explains when to use each type of export, outlines our starter projects, and explains the new Lobe Connect.</p>
+            <h2>Models and Model Files</h2>
+           <p>Machine learning models are a collection of files that other programs can load to get a prediction from the set of labels you trained with. These files store both the structure and the weights of the neural network that Lobe automatically trains for you. Because of its universal architecture, a model can be exported and used in almost any software imaginable.
 
+            For instance, you can host your model within your app without the need to connect to a server. You can also host your model in any of the major cloud platforms like Azure and use it with an API. You can run your model on an edge device such as a Raspberry Pi. And you can also host your model within Lobe and use our local API called Lobe Connect to help kickstart your app development.</p>
+            <h2>Model Files</h2>
+            <p>When you are building custom software, use the model file that fits your platform and project. Typically, model files are optimized for specific platforms and use-cases. Lobe currently supports five different model files: TensorFlow, TensorFlow Lite, TensorFlow.js, CoreML, and ONNX..</p>
+            <h3>TensorFlow</h3>
+            <p> This is a full-sized model for when you can handle the size and performance needs and you want the best accuracy possible. TensorFlow is very widely used and there is significant support for writing apps in Python and many other languages, and for hosting models in cloud services like Azure, Google Cloud, and AWS..</p>
+            <h3>TensorFlow Lite</h3>
+            <p> TensorFlow Lite models are fast and small, but less accurate than full TensorFlow models, making them well suited for devices with less processing power than a normal desktop computer. TensorFlow Lite is recommended for Android and universal mobile apps, as well as IoT applications.</p>
+            <h3>TensorFlow.JS</h3>
+            <p> These models are built specifically for use with JavaScript on browsers and in Node and can take advantage of WebGL acceleration on some devices.</p>
+            <h3>CoreML</h3>
+            <p>Created by Apple, Core ML is a model file that’s been optimized to run on Apple devices. It’s ideal for apps that will only run on iOS, iPadOS or macOS. </p>
+            <h3>ONNX</h3>
+            <p> Like TensorFlow, ONNX has broad support on multiple platforms. Export an ONNX model for cross-compatible applications, including edge devices.</p>
+            <div class="content-image">
+                <img src="blogpost1/img3.png" alt="Content Image 3">
+            </div>
+             <h2>Starter Projects</h2>
+             <p>If you don’t know exactly how to integrate a model with an app, or you want to test your model first before integrating it with the project you are building, our starter projects are a great way to get started. Just follow the README, export the indicated model file, and move it to the starter project you are using. We currently have four supported starter projects in our GitHub, including an iOS app, an Android app, a REST server, and a Web app. Let us know what else you’d like to see here!</p> 
+             <h3>iOS and Android Apps</h3>
+            <p> The iOS App project is written with Swift UI and uses a Core ML model to run its predictions. The app uses a live camera and shows the top three predictions . Additionally, you can also use images from your gallery.
+
+                The Android App is similar to the iOS App, but it’s written in Kotlin and uses TensorFlow Lite.</p>
+                <h3>REST Servers</h3>
+                <p> This Flask server exposes a REST API that uses a TensorFlow model to run its predictions. It can be used in any cloud provider, such as Azure, AWS or Google Cloud.</p>
+                <h3>Web Apps </h3>
+                <p> Running your model on a website is fun and accessible to people around the world. The Web App Starter is written in React and uses a TensorFlow.js model to show the top three predictions..</p>
+                
+              <div class="content-image">
+                <img src="blogpost1/img3.png" alt="Content Image 3">
+            </div>
+            <h2>LOBE Connect</h2>
+            <p>Lobe automatically hosts a local REST API. This makes it really handy to test your app locally without having to fully integrate it yet, while getting predictions back from the current model. To connect Lobe and your project, make a POST request with a base64 image to the unique URL that Lobe creates for your project. This will return the prediction results from your model with the labels and confidences.
+
+                To get started with Lobe Connect, we’ve prepared easy-to-use code snippets in several popular programming languages. Just click Lobe Connect in the Use tab to get started integrating your model.</p>
+                <div class="content-image">
+                    <img src="blogpost1/img3.png" alt="Content Image 3">
+                </div>
+                <h2>Get Started </h2>
+                <p>It can feel daunting to export and use your model, because of the many possibilities there are. However, ask yourself whether you have an app yet, what type of app you want to build, and if you want to get started with our sample projects or not.
+
+                    We can’t wait to see what you do with this new version of Lobe. Download it for free to get started on your machine learning model today. And join the community to share your feedback and see what others are building</p>
+        </div>
+    </section>
 
        
 <section class="main-section">
