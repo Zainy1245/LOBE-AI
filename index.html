@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobe AI Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            lobe <img src="images/logo.png" alt="Logo" class="logo-img">
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-nav" id="navbar-nav">
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="Examples.html">Examples</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="help.html">Help</a></li>
+                <button class="download-btn-nav">Download</button>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+        
+    </header>
+
+    
+        <section class="hero">
+            <div class="text-content">
+                <h1>Train apps to <br><span class="highlight">count reps</span></h1>
+                <p>Lobe helps you train machine learning models with a free, easy to use tool.</p>
+                <div class="buttons">
+                    <button class="download-btn">Download</button>
+                    <button class="tour-btn">Watch Tour</button>
+                </div>
+            </div>
+            <div class="video-content">
+                <video id="video" autoplay muted loop>
+                    <source src="/videos/mianpagevid.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    
+        <section class="hero-2">
+            <div class="text-content-2">
+                <h1>Machine learning made <span class="highlight">easy</span></h1>
+                <p>Lobe has everything you need to bring your machine learning ideas to life. Just show it examples of what you want it to learn, and it automatically trains a custom machine learning model that can be shipped in your app.</p>
+                         
+            </div>
+            <img src="images/section2img.jpg" alt="Example Image">
+            <section class="cards">
+                <div class="card">
+                    <div class="video-container">
+                        <video autoplay muted loop src="videos/section2icon1.mp4" ></video>
+                    </div>
+                    <h3>Easy to Use</h3>
+                    <p>Designed to be easy enough for anyone to use. No code or experience required.</p>
+                </div>
+                <div class="card">
+                    <div class="video-container">
+                        <video autoplay muted loop  src="videos/section2icon2.mp4" type="video/mp4"></video>
+                    </div>
+                    
+                    <h3>Free and Private</h3>
+                    <p>Train for free on your own computer without uploading your data to the cloud.</p>
+                </div>
+                <div class="card">
+                    <div class="video-container">
+                        <video autoplay muted loop  src="videos/section2icon3.mp4" ></video>
+                    </div>
+                    <h3>Export Anywhere</h3>
+                    <p>Available for Mac and Windows. Export your model and ship it on any platform you choose.</p>
+                </div>
+            </section>
+            <section class="project-templates">
+                <h2>Project <span class="highlight">Templates</span></h2>
+                <p>Lobe will automatically select the right machine learning architecture for your project. Image classification is available now, with more templates coming soon.</p>
+                <div class="template-cards">
+                    <div class="template-card">
+                        <div class="video-container">
+                            <video autoplay loop muted>
+                                <source src="videos/section2icon4.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <h3>Image Classification</h3>
+                        <p>Label an image based on its content.</p>
+                        <button class="available-now">AVAILABLE NOW</button>
+                    </div>
+                    <div class="template-card">
+                        <div class="video-container">
+                            <video autoplay loop muted>
+                                <source src="videos/section2icon5.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <h3>Object Detection</h3>
+                        <p>Locate an object inside of an image.</p>
+                        <button class="coming-soon">COMING SOON</button>
+                    </div>
+                    <div class="template-card">
+                        <div class="video-container">
+                            <video autoplay loop muted>
+                                <source src="videos/section2icon6.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <h3>Data Classification</h3>
+                        <p>Label data in a table based on its content.</p>
+                        <button class="coming-soon">COMING SOON</button>
+                    </div>
+                </div>
+            </section>
+            
+ </section> 
+ <section class="label-your-images">
+    <!--H! and h2 are required to be added later-->>
+    <div class="video-card" id="card1">
+        <video autoplay loop muted>
+            <source src="videos/sectionLabelvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+    <div class="text-content">
+        <h2><span class="highlight">Label</span> your images</h2>
+        <p>Collect bursts using your webcam, or drag in a folder of images from your computer. Then quickly label your images to create a machine learning dataset.</p>
+    </div>
+</section>
+
+<section class="label-your-images">
+    <div class="video-card" id="card2">
+        <video autoplay loop muted>
+            <source src="videos/sectionLabelvideo2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+    <div class="text-content" id="text-contentcard2">
+        <h2><span class="highlight">Label</span> your images</h2>
+        <p>Collect bursts using your webcam, or drag in a folder of images from your computer. Then quickly label your images to create a machine learning dataset.</p>
+    </div>
+</section>
+<section class="label-your-images">
+    <div class="video-card" id="card3">
+        <video autoplay loop muted>
+            <source src="videos/sectionLabelvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    </div>
+    <div class="text-content">
+        <h2><span class="highlight">Label</span> your images</h2>
+        <p>Collect bursts using your webcam, or drag in a folder of images from your computer. Then quickly label your images to create a machine learning dataset.</p>
+    </div>
+</section>
+  
+<section class="export-section">
+    <div class="content">
+        <h1>Export <span id="dynamic-text">ONNX</span></h1>
+        <p>When you are done, you can export your model to a variety of industry standard formats and ship it on any platform you choose.</p>
+        <a href="#" class="learn-more">Learn More</a>
+    </div>
+    <div class="icons">
+        <img src="icons/icons8-apple-96.png" alt="AWS">
+        <img src="icons/icons8-aws-96.png" alt="TensorFlow">
+        <img src="icons/icons8-google-96.png" alt="Azure">
+        <img src="icons/icons8-microsoft-96.png" alt="Windows">
+        <img src="icons/icons8-tech-100.png" alt="Apple">
+        <img src="icons/icons8-unity-100.png" alt="Google">
+        <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python">
+        <img src="https://img.icons8.com/?size=100&id=11670&format=png&color=000000" alt="Arduino">
+        <!-- Add more icons as needed -->
+    </div>
+
+    <section class="testimonials">
+        <div class="testimonial">
+            <img src="images/person1.jpg" alt="Person 1">
+            <p>"As soon as I used Lobe I was completely blown away. I don’t have to spend days trying to learn machine learning. Simply label some images and boom, it really just works."</p>
+            <h4>Chris Cachor</h4>
+            <p class="title">Software Engineer</p>
+        </div>
+        <div class="testimonial">
+            <img src="images/person2.jpg" alt="Person 2">
+            <p>"We’ve been using Lobe to quickly process previously untapped sources of data so that we can improve our models of nature-dependent tourism to promote better decision-making in our oceans."</p>
+            <h4>Kate Longley-Wood</h4>
+            <p class="title">Ocean Mapper</p>
+        </div>
+        <div class="testimonial">
+            <img src="images/person3.jpg" alt="Person 3">
+            <p>"Lobe is so easy and takes so much of the complicated stuff out of machine learning. Even my kid was begging me to sit in front of the computer and categorize my bees for me."</p>
+            <h4>Sean Cusack</h4>
+            <p class="title">Beekeeper</p>
+        </div>
+    </section>
+
+</section>  
+<section class="examples">
+    <h1>Lobe <span>Examples</span></h1>
+    <p>One tool, endless possibilities. Discover all the things you can train your app to do with Lobe.</p>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <video src="SldieshowVids/vid1.mp4" autoplay loop muted></video>
+                <div class="overlay">Plants Species</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid2.mp4" autoplay loop muted></video>
+                <div class="overlay">Hand Guestures</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid3.mp4" autoplay loop muted></video>
+                <div class="overlay">Personal Trainer</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid4.mp4" autoplay loop muted></video>
+                <div class="overlay">Emotional Reactions</div>
+            </div>
+            <!-- Repeat slides to create a looping effect -->
+            <div class="slide">
+                <video src="SldieshowVids/vid5.mp4" autoplay loop muted></video>
+                <div class="overlay">Interactive Painting</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid6.mp4" autoplay loop muted></video>
+                <div class="overlay">Safety Precautions</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid7.mp4" autoplay loop muted></video>
+                <div class="overlay">Whale Watching</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid8.mp4" autoplay loop muted></video>
+                <div class="overlay">Beehive Health</div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <video src="SldieshowVids/vid9.mp4" autoplay loop muted></video>
+                <div class="overlay">Baby Monitor</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid10.mp4" autoplay loop muted></video>
+                <div class="overlay">Smart Checkout</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid11.mp4" autoplay loop muted></video>
+                <div class="overlay">Fire Watch</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid12.mp4" autoplay loop muted></video>
+                <div class="overlay">Scientific Research</div>
+            </div>
+            <!-- Repeat slides to create a looping effect -->
+            <div class="slide">
+                <video src="SldieshowVids/vid13.mp4" autoplay loop muted></video>
+                <div class="overlay">WildLife Behavoiur</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid14.mp4" autoplay loop muted></video>
+                <div class="overlay">Equipment Analytics</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid15.mp4" autoplay loop muted></video>
+                <div class="overlay">Telescopic Imagery</div>
+            </div>
+            <div class="slide">
+                <video src="SldieshowVids/vid16.mp4" autoplay loop muted></video>
+                <div class="overlay">Ariel Imagery</div>
+            </div>
+        </div>
+    </div>
+</section>  
+<section class="main-section">
+    <h1>Train your app<br> with Lobe</h1>
+    <a href="#" class="download-button">Download</a>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section logo">
+            <img src="images/logo.png" width="30%" height="30%" alt="Lobe Logo">
+            <p font-size="10px">A product by Microsoft.<br>All rights reserved.<br>&copy; Microsoft 2021</p>
+        </div>
+        <div class="footer-section">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>General</h3>
+            <ul>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">License</a></li>
+                <li><a href="#">Press Inquiry</a></li>
+                <li><a href="#">Press Images</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Tour</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+        <div class="footer-section social">
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=437&format=png&color=000000" alt="Twitter"></a>
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=25654&format=png&color=000000" alt="YouTube"></a>
+            <a href="#"><img src="https://img.icons8.com/?size=100&id=30888&format=png&color=000000" alt="Discord"></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
