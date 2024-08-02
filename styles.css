@@ -1291,6 +1291,7 @@ margin-left: -1px;
 @media (max-width: 768px) {
     .blog-header h1 {
         font-size: 2em;
+        padding-top: 70px;
     }
 
     .blog-content {
